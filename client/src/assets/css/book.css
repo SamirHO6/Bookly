@@ -1,0 +1,29 @@
+.book {
+  margin: 60px;
+}
+
+.book__loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book > .MuiButtonBase-root {
+  width: 280px;
+  height: 50px;
+  float: right;
+  margin-top: -60px;
+  background: linear-gradient(107.56deg, #f2709b 24.95%, #ff9472 100%);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: none;
+  box-shadow: none !important;
+}
+
+.book > .MuiButtonBase-root .MuiSvgIcon-root {
+  margin-right: 10px;
+}

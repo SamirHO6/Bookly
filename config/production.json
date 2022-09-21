@@ -1,0 +1,4 @@
+{
+  "db": "mongodb+srv://booklyuser:1234@cluster0.ntnph4c.mongodb.net/test",
+  "jwtSignatureKey": ""
+}

@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(107.56deg, #5669df 20.18%, #61cef7 100%);
+  padding: 10px 20px;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__search,
+.header__search-home {
+  background: linear-gradient(90deg, #5669df 30.14%, #61cef7 100%);
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.header__search > div:first-child,
+.header__search-home > div:first-child {
+  display: flex;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.header__search .MuiButtonBase-root {
+  color: #999999 !important;
+  background: #fff !important;
+  padding: 11px 0 10px 0 !important;
+  border-radius: 10px !important;
+}
+
+.header__search-home .MuiButtonBase-root {
+  color: white !important;
+  background: linear-gradient(
+    107.56deg,
+    #5669df 20.18%,
+    #61cef7 100%
+  ) !important;
+  padding: 11px 0 10px 0 !important;
+  border-radius: 10px !important;
+}
+
+.header__search input,
+.header__search-home input {
+  width: 600px;
+  height: 45px;
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 40px;
+  background-color: transparent;
+  border: none;
+  outline-width: 0;
+}
+
+.header__search input::placeholder,
+.header__search-home input::placeholder {
+  color: #999999;
+}
+
+.header__profile .MuiAvatar-root {
+  background: #f2709b;
+}
+
+.header__button > .MuiButtonBase-root:first-child,
+.header__button-home > .MuiButtonBase-root:first-child {
+  background: linear-gradient(107.56deg, #f2709b 24.95%, #ff9472 100%);
+  margin-right: 20px;
+}
+
+.header__button-home > .MuiButtonBase-root:last-child {
+  color: #fff !important;
+  background: linear-gradient(107.56deg, #5669df 20.18%, #61cef7 100%);
+}
+
+.header__button > .MuiButtonBase-root:last-child {
+  color: #61cef7 !important;
+  background: #fff;
+}
+
+.header__button > .MuiButtonBase-root,
+.header__button-home > .MuiButtonBase-root {
+  width: 160px !important;
+  height: 48px !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+}

@@ -1,0 +1,64 @@
+.homeBook {
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin: 20px;
+  border-radius: 10px;
+  flex: 1 0 21%;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.homeBook:hover {
+  background-color: #eee;
+}
+
+.homeBook__details {
+  margin-left: 10px;
+}
+
+.homeBook__details > div {
+  display: flex;
+  align-items: center;
+}
+
+.homeBook__details > div:first-child {
+  margin-bottom: 3px;
+}
+
+.homeBook__details > div:first-child > p {
+  margin-left: 5px;
+}
+
+.homeBook__details h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.homeBook__details h3 > span,
+.homeBook__details p {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: #999999;
+  margin-bottom: 3px;
+}
+
+.homeBook__details .MuiRating-root {
+  margin-bottom: 10px;
+}
+
+.homeBook__details > div span {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.homeBook__details > div .MuiSvgIcon-root:first-child {
+  color: #95db94;
+  margin-right: 10px;
+}
+
+.homeBook__details > div .MuiSvgIcon-root {
+  color: #f52563;
+  font-size: 18px;
+}

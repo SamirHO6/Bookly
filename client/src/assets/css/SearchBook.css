@@ -1,0 +1,55 @@
+.searchBook {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.searchBook > img {
+  width: 190px;
+  height: 280px;
+  margin-right: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.searchBook__details > div:first-child {
+  align-items: flex-start;
+}
+
+.searchBook__details > div {
+  display: flex;
+  align-items: center;
+}
+
+.searchBook__details > div:first-child {
+  margin-bottom: 3px;
+}
+
+.searchBook__details > div:first-child > p {
+  margin-left: 5px;
+}
+
+.searchBook__details h3 {
+  font-weight: 600;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.searchBook__details p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #999999;
+  margin-bottom: 3px;
+}
+
+.searchBook__details .MuiRating-root {
+  margin: 10px 0;
+}
+
+.searchBook__details-price {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.searchBook__details-price > span:first-child {
+  margin: 10px 10px 10px 0 !important;
+}
