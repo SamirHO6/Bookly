@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const Float = require("mongoose-float").loadType(mongoose);
 const Joi = require("joi-oid");
 
 const reviewSchema = new mongoose.Schema({
@@ -10,7 +9,7 @@ const reviewSchema = new mongoose.Schema({
     required: true,
   },
   rating: {
-    type: Float,
+    type: mongoose.Types.Decimal128,
     min: 0,
     max: 5,
     default: 0,

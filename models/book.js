@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const Float = require("mongoose-float").loadType(mongoose);
 const Joi = require("joi-oid");
 const { categorySchema } = require("./category");
 const { reviewSchema } = require("./review");
@@ -30,7 +29,7 @@ const bookSchema = new mongoose.Schema({
     required: true,
   },
   price: {
-    type: Float,
+    type: mongoose.Types.Decimal128,
     min: 10,
     max: 255,
     required: true,
@@ -82,7 +81,7 @@ const bookSchema = new mongoose.Schema({
     required: true,
   },
   discountPrice: {
-    type: Float,
+    type: mongoose.Types.Decimal128,
     min: 10,
     max: 255,
   },
@@ -90,7 +89,7 @@ const bookSchema = new mongoose.Schema({
     type: Boolean,
   },
   rating: {
-    type: Float,
+    type: mongoose.Types.Decimal128,
     min: 0,
     max: 5,
     default: 0,
